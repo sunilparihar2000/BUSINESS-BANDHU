@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Our Services | Business Bandhu</title>
+<!-- Canonical Link -->
+<link href="https://www.businessbandhu.com/services.html" rel="canonical"/>
+<!-- Favicon -->
+<link href="favicon.ico" rel="icon" type="image/x-icon"/>
+<!-- SEO Tags -->
+<meta content="Explore Business Bandhu's services: business registration, GST filing, trademarks, and compliance for Indian startups." name="description"/>
+<meta content="Business Registration, GST Filing, Startup Services, Company Compliance, Trademarks, Legal Drafting" name="keywords"/>
+<meta content="Business Bandhu" name="author"/>
+<!-- Open Graph (Facebook, LinkedIn) -->
+<meta content="Startup &amp; Compliance Services | Business Bandhu" property="og:title"/>
+<meta content="Register your business, file GST, trademarks, ITR, and stay compliant with expert support from Business Bandhu." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://www.businessbandhu.com/services.html" property="og:url"/>
+<meta content="https://www.businessbandhu.com/og-image.jpg" property="og:image"/>
+<!-- Twitter Cards -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Startup &amp; Compliance Services | Business Bandhu" name="twitter:title"/>
+<meta content="Get expert services for business registration, legal drafting, GST &amp; ITR filings." name="twitter:description"/>
+<meta content="https://www.businessbandhu.com/og-image.jpg" name="twitter:image"/>
+<!-- Fonts & CSS -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #fffdf9; color: #2c2c2c; }
+
+    header {
+      background: #0e1e2a;
+      color: white;
+      padding: 12px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 { font-weight: 600; }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .menu-icon {
+      display: none;
+      font-size: 26px;
+      cursor: pointer;
+      margin-left: 20px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links a {
+      color: #d1e0e0;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    .nav-links a:hover {
+      color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #0e1e2a;
+        padding: 10px;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        z-index: 999;
+      }
+      .menu-icon {
+        display: block;
+      }
+    }
+
+    .services-hero {
+      background: linear-gradient(to right, #e3f2fd, #f1fcf9);
+      padding: 20px;
+      text-align: center;
+    }
+    .services-hero h2 {
+      font-size: 2.5rem;
+      color: #05386b;
+      margin-bottom: 10px;
+    }
+    .services-hero p {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      padding: 30px 40px;
+      background: #f9f9f9;
+    }
+    .service-box {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .service-box:hover {
+      transform: translateY(-5px);
+    }
+    .service-box h3 {
+      font-size: 1.2rem;
+      color: #05386b;
+      margin-bottom: 12px;
+    }
+    .service-box p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .cta-section {
+      text-align: center;
+      padding: 20px;
+      background: #eafaf1;
+    }
+    .cta-section a {
+      background: #379683;
+      color: white;
+      text-decoration: none;
+      padding: 14px 30px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+    .cta-section a:hover {
+      background: #2c6f64;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 40px 20px;
+      margin-top: 50px;
+    }
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    footer h4 {
+      margin-bottom: 10px;
+    }
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+    footer ul li {
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+<header>
+<h1>Business Bandhu</h1>
+<nav class="navbar">
+<div class="nav-container">
+<div class="menu-icon" onclick="toggleMenu()">☰</div>
+<div class="nav-links" id="navLinks">
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="about.html">About Us</a>
+<a href="contact.html">Contact</a>
+<a href="faqs.html">FAQs</a>
+</div>
+</div>
+</nav>
+<div class="auth-buttons" style="margin-left:auto;">
+<a href="login.html" style="margin-right:10px; color:#fff; text-decoration:none;">Login</a>
+<a href="signup.html" style="color:#fff; text-decoration:none;">Sign Up</a>
+</div>
+</header>
+<section class="services-hero">
+<h2>Our Startup &amp; Compliance Services</h2>
+<p>One-stop solution for all your business registration, tax filing, legal drafting, and compliance needs.</p>
+</section>
+<section class="service-grid">
+<div class="service-box">
+<h3>Startup Registration</h3>
+<p>Private Limited, LLP, OPC, MSME — we help register your business the right way.</p>
+</div>
+<a href="sole-proprietor-registration.html" style="text-decoration:none;color:inherit;"><div class="service-box">
+<h3>Sole Proprietor Setup</h3>
+<p>Simple and fast registration with PAN, GST, and Udyam support.</p>
+</div></a>
+<a href="gst-filing.html" style="text-decoration:none;color:inherit;"><div class="service-box">
+<h3>GST Filing</h3>
+<p>Monthly, quarterly &amp; annual GST returns with expert-led compliance support.</p>
+</div></a>
+<a href="annual-compliance.html" style="text-decoration:none;color:inherit;"><div class="service-box">
+<h3>Annual Compliance</h3>
+<p>We handle ROC filings like AOC-4, MGT-7, AGM docs &amp; more.</p>
+</div></a>
+<a href="trademark-registration.html" style="text-decoration:none;color:inherit;"><div class="service-box">
+<h3>Trademark Registration</h3>
+<p>Secure your brand identity with end-to-end TM application support.</p>
+</div></a>
+<a href="legal-drafting.html" style="text-decoration:none;color:inherit;"><div class="service-box">
+<h3>Legal Drafting</h3>
+<p>Agreements, resolutions &amp; more — all prepared by experts in plain language.</p>
+</div></a>
+<a href="itr-filing.html" style="text-decoration:none;color:inherit;"><div class="service-box">
+<h3>ITR Filing</h3>
+<p>Income Tax Return filing for individuals, professionals, and companies.</p>
+</div></a>
+<a href="tds-filing.html" style="text-decoration:none;color:inherit;"><div class="service-box">
+<h3>TDS Filing</h3>
+<p>On-time quarterly TDS return filings to stay penalty-free.</p>
+</div></a>
+</section>
+<section class="cta-section">
+<a href="contact.html">Get Started Now</a>
+</section>
+<footer>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1200px; margin: auto;">
+<div style="flex: 1 1 200px; margin-bottom: 20px;">
+<h3 style="color: #f39c12;">Business Bandhu</h3>
+<p>Helping Indian Startups register, grow &amp; stay compliant.</p>
+</div>
+<div style="flex: 1 1 150px; margin-bottom: 20px;">
+<h4>Quick Links</h4>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="faqs.html">FAQs</a></li>
+</ul>
+</div>
+<div style="flex: 1 1 200px; margin-bottom: 20px;">
+<h4>Contact Us</h4>
+<p>Email: <a href="mailto:businessbandhu@gmail.com">businessbandhu@gmail.com</a></p>
+<p>Phone: <a href="tel:+919999999999">+91-99999-99999</a></p>
+</div>
+<div style="flex: 1 1 150px; margin-bottom: 20px;">
+<h4>Follow Us</h4>
+<a href="#" rel="noopener noreferrer" target="_blank">Facebook</a><br/>
+<a href="#" rel="noopener noreferrer" target="_blank">Instagram</a><br/>
+<a href="#" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+</div>
+</div>
+<hr style="margin: 30px 0; border-color: #333;"/>
+<p style="text-align: center; color: #888;">© 2025 Business Bandhu. All rights reserved.</p>
+</footer>
+<script>
+    function toggleMenu() {
+      var navLinks = document.getElementById("navLinks");
+      navLinks.style.display = navLinks.style.display === "block" ? "none" : "block";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us - Business Bandhu</title>
+<!-- Primary SEO Meta Tags -->
+<meta content="About Us - Business Bandhu" name="title"/>
+<meta content="Learn about Business Bandhu’s mission to empower startups with expert legal and compliance support." name="description"/>
+<meta content="About Business Bandhu, Startup Support, Legal Experts, Company Secretary, Compliance Help" name="keywords"/>
+<meta content="Business Bandhu" name="author"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://www.businessbandhu.com/about.html" property="og:url"/>
+<meta content="About Us - Business Bandhu" property="og:title"/>
+<meta content="Empowering Indian startups with legal, compliance, and tax support. Discover our mission and values." property="og:description"/>
+<meta content="https://www.businessbandhu.com/images/logo.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="About Us - Business Bandhu" property="twitter:title"/>
+<meta content="Empowering Indian startups with legal, compliance, and tax support. Discover our mission and values." property="twitter:description"/>
+<meta content="https://www.businessbandhu.com/images/logo.png" property="twitter:image"/>
+<!-- Favicon -->
+<link href="favicon.ico" rel="icon" type="image/x-icon"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<!-- External CSS -->
+<link href="style.css" rel="stylesheet"/>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #fffdf9; color: #2c2c2c; }
+
+    header {
+      background: #0e1e2a; color: white;
+      padding: 12px 40px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    header h1 { font-weight: 600; }
+    nav a {
+      margin-left: 25px;
+      color: #d1e0e0;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover { color: #ffffff; }
+
+    .about-hero {
+      background: linear-gradient(to right, #e3f2fd, #f1fcf9);
+      padding: 20px;
+      text-align: center;
+    }
+    .about-hero h2 {
+      font-size: 2.5rem;
+      color: #05386b;
+      margin-bottom: 15px;
+    }
+    .about-hero p {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #555;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .about-content {
+      padding: 30px 40px;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.7;
+    }
+    .about-content h3 {
+      color: #05386b;
+      margin-bottom: 5px;
+      font-size: 1.5rem;
+    }
+    .about-content p {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 15px;
+    }
+
+    .highlight-box {
+      background-color: #f4fdf9;
+      border-left: 5px solid #379683;
+      padding: 15px 20px;
+      font-size: 1rem;
+      color: #333;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+
+    .cta-section {
+      text-align: center;
+      padding: 20px;
+      background: #eafaf1;
+    }
+    .cta-section a {
+      background: #379683;
+      color: white;
+      text-decoration: none;
+      padding: 14px 30px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+    .cta-section a:hover {
+      background: #2c6f64;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 40px 20px;
+      margin-top: 50px;
+    }
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer-section {
+      flex: 1 1 200px;
+      margin-bottom: 20px;
+    }
+
+    .footer-section h4, .footer-section h3 {
+      color: #f39c12;
+      margin-bottom: 10px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      color: #888;
+      font-size: 0.9rem;
+      margin-top: 30px;
+      border-top: 1px solid #333;
+      padding-top: 20px;
+    }
+
+    .menu-icon {
+      display: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .nav-links {
+      display: flex;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        margin-top: 10px;
+        background: #0e1e2a;
+        padding: 10px;
+      }
+      .nav-links.active {
+        display: flex;
+      }
+      .menu-icon {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+<h1>Business Bandhu</h1>
+<div class="menu-icon" onclick="toggleMenu()">☰</div>
+<nav class="nav-links" id="navLinks">
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a class="active" href="about.html">About Us</a>
+<a href="contact.html">Contact</a>
+<a href="faqs.html">FAQs</a>
+</nav>
+<div class="auth-buttons" style="margin-left:auto;">
+<a href="login.html" style="margin-right:10px; color:#fff; text-decoration:none;">Login</a>
+<a href="signup.html" style="color:#fff; text-decoration:none;">Sign Up</a>
+</div>
+</header>
+<section class="about-hero">
+<h2>About Business Bandhu</h2>
+<p>Your trusted partner for startup registration, tax compliance, and legal support in India.</p>
+</section>
+<section class="about-content">
+<h3>Who We Are</h3>
+<p>Business Bandhu is a startup-friendly platform designed to simplify the journey of business formation, legal compliance, and taxation in India. With a team of experienced professionals and tech-driven tools, we provide end-to-end services for startups, SMEs, and entrepreneurs.</p>
+<h3>Our Mission</h3>
+<p>We aim to empower entrepreneurs by removing complexities from legal and regulatory processes. Our goal is to offer simple, transparent, and affordable compliance solutions tailored to Indian businesses.</p>
+<h3>What Makes Us Different</h3>
+<div class="highlight-box">
+      We combine technology, expert guidance, and a customer-first approach to simplify your startup &amp; compliance journey.  
+      No confusion, no delays — just smart, friendly support at every step.
+    </div>
+<h3>Trusted by Growing Businesses</h3>
+<p>From registration to GST, ITR, and trademark protection, hundreds of clients trust us to stay compliant and focused on growth.</p>
+</section>
+<section class="cta-section">
+<a href="contact.html">Talk to Our Team</a>
+</section>
+<footer>
+<div class="footer-container">
+<div class="footer-section">
+<h3>Business Bandhu</h3>
+<p>Helping Indian Startups register, grow &amp; stay compliant.</p>
+</div>
+<div class="footer-section">
+<h4>Quick Links</h4>
+<ul style="list-style: none; padding: 0;">
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="faqs.html">FAQs</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4>Contact Us</h4>
+<p>Email: <a href="mailto:businessbandhu@gmail.com">businessbandhu@gmail.com</a></p>
+<p>Phone: <a href="tel:+919999999999">+91-99999-99999</a></p>
+</div>
+<div class="footer-section">
+<h4>Follow Us</h4>
+<a href="#" style="margin-right: 10px;">Facebook</a>
+<a href="#" style="margin-right: 10px;">Instagram</a>
+<a href="#">LinkedIn</a>
+</div>
+</div>
+<div class="footer-bottom">
+      © 2025 Business Bandhu. All rights reserved.
+    </div>
+</footer>
+<script>
+    function toggleMenu() {
+      const nav = document.getElementById("navLinks");
+      nav.classList.toggle("active");
+    }
+  </script>
+</body>
+</html>

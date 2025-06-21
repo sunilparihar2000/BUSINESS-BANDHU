@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Track Application Status</title>
+<style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f8fb;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #05386b;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .status-container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+    .status-step {
+      margin: 20px 0;
+      font-size: 18px;
+      position: relative;
+      padding-left: 30px;
+    }
+    .status-step::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: green;
+    }
+    .status-step.pending::before {
+      content: '⏳';
+      color: orange;
+    }
+    .status-step.future::before {
+      content: '🔒';
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+<header>Track Your Application
+<div class="auth-buttons" style="margin-left:auto;">
+<a href="login.html" style="margin-right:10px; color:#fff; text-decoration:none;">Login</a>
+<a href="signup.html" style="color:#fff; text-decoration:none;">Sign Up</a>
+</div>
+</header>
+<div class="status-container">
+<div class="status-step">Step 1: Payment Received</div>
+<div class="status-step">Step 2: Application in Process</div>
+<div class="status-step pending">Step 3: Documents Under Review</div>
+<div class="status-step future">Step 4: Final Submission</div>
+</div>
+<footer style="background:#0e1e2a; color:white; padding:20px; text-align:center; margin-top:40px;">
+<p style="margin:5px;">📧 Email: <a href="mailto:businessbandhu1993@gmail.com" style="color:#ffcc00;">businessbandhu1993@gmail.com</a></p>
+<p style="margin:5px;">📞 Mobile: 7999274869, 9074974671</p>
+</footer></body>
+</html>
